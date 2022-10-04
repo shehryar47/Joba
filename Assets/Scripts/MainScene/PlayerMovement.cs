@@ -4,13 +4,15 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
 
+
+
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] Camera playerCam;
     [SerializeField] GameObject dialCam;
     [SerializeField] GameObject currentCam;
     NavMeshAgent agent;
-    public GameObject guard;
+    GameObject guard;
 
     void Start()
     {
@@ -23,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
         CastRay();
         if (guard != null && Vector3.Distance(transform.position, guard.transform.position) < 4f)
         {
-            //playerCam.gameObject.SetActive(false);
+            
             dialCam.SetActive(true);
         }
     }
