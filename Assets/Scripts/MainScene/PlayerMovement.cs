@@ -47,8 +47,7 @@ public class PlayerMovement : MonoBehaviour
         dialCam.SetActive(true);
         DialSystem.SetActive(true);
         guard.GetComponent<DialogueTrigger>().TriggerDialogue();
-        //agent.enabled = false;
-        //DialManager.GetComponent<DialogueManager>().DisplayNextSentence();
+        
     }
 
     private void CastRay()

@@ -9,7 +9,7 @@ public class DialogueManager : MonoBehaviour
 	public TextMeshProUGUI nameText;
 	public TextMeshProUGUI dialogueText;
 	public GameObject player;
-
+	
 	//public Animator animator;
 
 	public Queue<string> sentences;
@@ -61,15 +61,18 @@ public class DialogueManager : MonoBehaviour
 
 	void EndDialogue()
 	{
+		EndingGuardDialogue();
+	}
 
-		var playerMovement=player.GetComponent<PlayerMovement>();
-		var playerFunctions= player.GetComponent<PlayerFunctions>();
+	private void EndingGuardDialogue()
+	{
+		var playerMovement = player.GetComponent<PlayerMovement>();
+		var playerFunctions = player.GetComponent<PlayerFunctions>();
 		playerMovement.dialogueStarted = false;
 		playerMovement.DialSystem.SetActive(false);
 		playerMovement.dialogueFinished = true;
 		playerMovement.agent.enabled = false;
 		playerFunctions.ShowSlate();
-		//playerMovement.dialCam.SetActive(false);
+		
 	}
-
 }
