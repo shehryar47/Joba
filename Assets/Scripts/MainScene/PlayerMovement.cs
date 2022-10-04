@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -9,8 +6,12 @@ using UnityEngine.AI;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] Camera playerCam;
-    [SerializeField] GameObject dialCam;
+    [SerializeField] public GameObject dialCam;
     [SerializeField] GameObject currentCam;
+    [SerializeField] public GameObject DialSystem;
+    [SerializeField] GameObject DialManager;
+    public bool dialogueStarted;
+    public bool dialogueFinished;
     NavMeshAgent agent;
     GameObject guard;
 
@@ -23,11 +24,31 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         CastRay();
+        CheckGuard();
+
+    }
+
+    private void CheckGuard()
+    {
+
         if (guard != null && Vector3.Distance(transform.position, guard.transform.position) < 4f)
         {
-            
-            dialCam.SetActive(true);
+            if (!dialogueStarted&&!dialogueFinished)
+            {
+
+                StartDialogue();
+                dialogueStarted = true;
+            }
         }
+    }
+
+    private void StartDialogue()
+    {
+        dialCam.SetActive(true);
+        DialSystem.SetActive(true);
+        guard.GetComponent<DialogueTrigger>().TriggerDialogue();
+        //agent.enabled = false;
+        //DialManager.GetComponent<DialogueManager>().DisplayNextSentence();
     }
 
     private void CastRay()
@@ -36,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Ray ray = playerCam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit))
+            if (Physics.Raycast(ray, out hit)&& !dialogueStarted)
             {
                 agent.SetDestination(hit.point);
                 if (hit.transform.name == ("Guard"))
