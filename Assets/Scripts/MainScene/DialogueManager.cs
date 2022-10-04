@@ -8,7 +8,7 @@ public class DialogueManager : MonoBehaviour
 
 	public TextMeshProUGUI nameText;
 	public TextMeshProUGUI dialogueText;
-	public PlayerMovement playerMovement;
+	public GameObject player;
 
 	//public Animator animator;
 
@@ -62,11 +62,14 @@ public class DialogueManager : MonoBehaviour
 	void EndDialogue()
 	{
 
-
+		var playerMovement=player.GetComponent<PlayerMovement>();
+		var playerFunctions= player.GetComponent<PlayerFunctions>();
 		playerMovement.dialogueStarted = false;
 		playerMovement.DialSystem.SetActive(false);
 		playerMovement.dialogueFinished = true;
-		playerMovement.dialCam.SetActive(false);
+		playerMovement.agent.enabled = false;
+		playerFunctions.ShowSlate();
+		//playerMovement.dialCam.SetActive(false);
 	}
 
 }

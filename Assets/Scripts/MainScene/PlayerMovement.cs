@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] GameObject DialManager;
     public bool dialogueStarted;
     public bool dialogueFinished;
-    NavMeshAgent agent;
+    public NavMeshAgent agent;
     GameObject guard;
 
     void Start()
@@ -53,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void CastRay()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) && agent.enabled)
         {
             Ray ray = playerCam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
