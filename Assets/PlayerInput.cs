@@ -7,6 +7,8 @@ public class PlayerInput : MonoBehaviour
     public float turnTime = 0.1f;
     public float turnVelocity;
     public Animator anim;
+    bool GroundPlayer;
+    private Vector3 PlayerVelocity;
     void Start()
     {
         characterController = GetComponent<CharacterController>();
@@ -25,6 +27,16 @@ public class PlayerInput : MonoBehaviour
         float vertical = SimpleInput.GetAxisRaw("Horizontal");
         float horizontal = SimpleInput.GetAxisRaw("Vertical");
         var movement = new Vector3(vertical, 0, horizontal).normalized;
+       // GroundPlayer = (this.transform.position.y < 5.93f) ? true : false;
+        if(!GroundPlayer)
+        {
+            PlayerVelocity.y += (-9.81f) * Time.deltaTime;
+            characterController.Move(PlayerVelocity * Time.deltaTime);
+        }
+        else
+        {
+            PlayerVelocity = Vector3.zero;
+        }
         if (movement.magnitude >= 0.1f)
         {
             float targetAngle = Mathf.Atan2(movement.x, movement.z) * Mathf.Rad2Deg;

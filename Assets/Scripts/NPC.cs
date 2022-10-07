@@ -24,7 +24,7 @@ public class NPC : MonoBehaviour
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        agent.SetDestination(table.position);
+        agent.SetDestination(table.position);  
         slate = transform.GetChild(0).GetChild(0).gameObject;
         registerNameBtn = slate.GetComponentInChildren<Button>();
         keyImage = slate.transform.GetChild(3).gameObject;
@@ -39,7 +39,7 @@ public class NPC : MonoBehaviour
         registerNameBtn.onClick.RemoveListener(delegate { RegisterNameOnRecordBook(id); });
         registerNameBtn.GetComponentInChildren<TextMeshProUGUI>().text = "Give Key";
         registerNameBtn.onClick.AddListener(delegate { GiveKey(); });
-
+       
     }
 
     public void GiveKey()
@@ -49,6 +49,7 @@ public class NPC : MonoBehaviour
         registerNameBtn.onClick.RemoveAllListeners();
         registerNameBtn.GetComponentInChildren<TextMeshProUGUI>().text = "Call Butler";
         registerNameBtn.onClick.AddListener(delegate { CallButler(); });
+        gameObject.transform.Rotate(0, 0, 0);
     }
 
     public void CallButler()
