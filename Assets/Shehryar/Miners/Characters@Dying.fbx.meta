@@ -1,0 +1,660 @@
+fileFormatVersion: 2
+guid: 166c7bec4a8e19f488842df6ca642db6
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Dying
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Dying
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 2
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 409
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Characters@Dying(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Adventure_Peasant_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Adventure_ShopKeeper_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Adventure_Viking_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Adventure_Warrior_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Dungeon_GoblinChief_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Dungeon_GoblinFemale_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Dungeon_GoblinMale_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Dungeon_GoblinShaman_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Dungeon_GoblinWarriorFemale_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Dungeon_GoblinWarriorMale_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Dungeon_KnightFemale_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Dungeon_KnightMale_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Dungeon_RockGolem_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Dungeon_SkeletonKnight_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Dungeon_SkeletonSoldier_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Dungeon_SkeletonSoldier_02
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Dungeon_Skeleton_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Fantasy_Bard_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Fantasy_Druid_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Fantasy_FemalePeasant_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Fantasy_Gypsy_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Fantasy_King_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Fantasy_MalePeasant_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Fantasy_PeasantWoman_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Fantasy_Queen_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Fantasy_RougeMale_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Fantasy_Sorcerer_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Fantasy_Witch_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Fantasy_Wizard_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Knights_Dark_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Knights_Light_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Knights_Soldier_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Pirates_Blackbeard_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Pirates_Captain_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Pirates_Deckhand_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Pirates_EnglishCaptain_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Pirates_EnglishSoldier_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Pirates_FemalePirate_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Pirates_Firstmate_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Pirates_Gentleman_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Pirates_GovDaugter_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Samurai_Geisha_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Samurai_Grunt_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Samurai_Ninja_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Samurai_SamuraiWarrior_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Samurai_Sensei_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Samurai_VillageMan_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Samurai_VillageWoman_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Vikings_Chief_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Vikings_ShieldMaiden_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Vikings_Warrior_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Vikings_Warrior_02
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Western_Badguy_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Western_Cowboy_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Western_Cowgirl_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Western_Gunman_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Western_Sheriff_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Western_TownMan_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Western_Woman_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chr_Western_WorkingGirl_01
+      parentName: Characters@Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root
+      parentName: Characters@Dying(Clone)
+      position: {x: 0.38798824, y: -0.011969085, z: 0.577416}
+      rotation: {x: -0, y: 0.0000000029103835, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: pelvis
+      parentName: root
+      position: {x: -0.38798824, y: 0.5528884, z: -0.57741606}
+      rotation: {x: -0.000000007416134, y: 0.0000000017156325, z: 0.19559878, w: 0.98068404}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: spine_01
+      parentName: pelvis
+      position: {x: 0.036912687, y: 0.088854454, z: -0.020261854}
+      rotation: {x: 0.000000014529935, y: 0.0000000024207314, z: -0.8317575, w: 0.55513906}
+      scale: {x: 1.00002, y: 1.0000135, z: 1}
+    - name: spine_02
+      parentName: spine_01
+      position: {x: -0.15531465, y: 3.448678e-17, z: 0}
+      rotation: {x: -0.000000002910384, y: -0.0000000029103835, z: -0.000000029802322, w: 1}
+      scale: {x: 1.0000155, y: 1.0000155, z: 1.0000005}
+    - name: spine_03
+      parentName: spine_02
+      position: {x: -0.15234078, y: 3.382645e-17, z: -4.440892e-18}
+      rotation: {x: 0.70610756, y: -0.037578437, z: 0.03757855, w: 0.70610756}
+      scale: {x: 1.000021, y: 1.0000196, z: 1.0000217}
+    - name: clavicle_l
+      parentName: spine_03
+      position: {x: -0.07263556, y: 0.03286756, z: 0.11330262}
+      rotation: {x: -0.40043026, y: 0.4243769, z: 0.52511805, w: 0.6195248}
+      scale: {x: 1.0000038, y: 0.99996954, z: 1.0000097}
+    - name: upperarm_l
+      parentName: clavicle_l
+      position: {x: -0.12666713, y: 3.6082247e-18, z: 0}
+      rotation: {x: 0.0044826115, y: 0.18146414, z: 0.08145664, w: 0.9800079}
+      scale: {x: 0.9997793, y: 0.999986, z: 1.0002434}
+    - name: lowerarm_l
+      parentName: upperarm_l
+      position: {x: -0.26757237, y: 0.01167347, z: 0.0000000016097733}
+      rotation: {x: -0.000000036321577, y: -0.000000029802319, z: -0.045034822, w: 0.99898547}
+      scale: {x: 0.99997103, y: 1.0000224, z: 1.0000007}
+    - name: hand_l
+      parentName: lowerarm_l
+      position: {x: -0.2675374, y: -0.012449518, z: -0.000000001609775}
+      rotation: {x: 0.06389802, y: 0.42619017, z: 0.06900284, w: 0.89973193}
+      scale: {x: 1.0000843, y: 0.99994254, z: 0.99997556}
+    - name: thumb_01_l
+      parentName: hand_l
+      position: {x: -0.097617604, y: 8.437695e-17, z: 1.4210854e-16}
+      rotation: {x: -0.022901248, y: -0.104548156, z: -0.052815653, w: 0.99285233}
+      scale: {x: 1.0022337, y: 1.0000756, z: 0.99769884}
+    - name: thumb_02_l
+      parentName: thumb_01_l
+      position: {x: -0.07664389, y: 1.9428903e-16, z: -1.9984014e-16}
+      rotation: {x: -0.02872687, y: -0.02266637, z: 0.028770197, w: 0.9989161}
+      scale: {x: 1.0017176, y: 1.0001175, z: 0.998163}
+    - name: thumb_03_l
+      parentName: thumb_02_l
+      position: {x: -0.07903092, y: -1.4432899e-17, z: -9.325873e-17}
+      rotation: {x: -0.044190917, y: -0.20723128, z: -0.20381969, w: 0.9558033}
+      scale: {x: 1.0088067, y: 1.0046782, z: 0.9866364}
+    - name: middle_01_l
+      parentName: hand_l
+      position: {x: -0.087085836, y: 0.019965027, z: -0.11055341}
+      rotation: {x: -0.08253161, y: -0.42416394, z: -0.030790403, w: 0.901291}
+      scale: {x: 1.0042914, y: 1.0001822, z: 0.9955479}
+    - name: middle_02_l
+      parentName: middle_01_l
+      position: {x: -0.07300905, y: 0.0000000087193035, z: -0.00000005623653}
+      rotation: {x: 0.0004644841, y: 0.0027054846, z: -0.16921829, w: 0.9855748}
+      scale: {x: 1.0004642, y: 0.99952424, z: 1.0000082}
+    - name: clavicle_r
+      parentName: spine_03
+      position: {x: -0.072635286, y: 0.032867532, z: -0.113303}
+      rotation: {x: 0.42437735, y: 0.4004304, z: -0.6195244, w: 0.525118}
+      scale: {x: 1.0000013, y: 0.9999861, z: 1.0000296}
+    - name: upperarm_r
+      parentName: clavicle_r
+      position: {x: 0.1266669, y: 0.00000013320208, z: 0.00000004519148}
+      rotation: {x: 0.0044822246, y: 0.18146122, z: 0.08145484, w: 0.98000866}
+      scale: {x: 0.99978244, y: 1.0000082, z: 1.0002593}
+    - name: lowerarm_r
+      parentName: upperarm_r
+      position: {x: 0.26757252, y: -0.0116735445, z: 2.0428103e-16}
+      rotation: {x: -0.000000025145711, y: 0.00000007450581, z: -0.045034822, w: 0.99898547}
+      scale: {x: 0.9999997, y: 1.0000515, z: 1.0000424}
+    - name: hand_r
+      parentName: lowerarm_r
+      position: {x: 0.26753753, y: 0.012449487, z: 1.687539e-16}
+      rotation: {x: 0.06389801, y: 0.42619, z: 0.06900268, w: 0.8997321}
+      scale: {x: 0.9998545, y: 0.9999426, z: 1.000232}
+    - name: thumb_01_r
+      parentName: hand_r
+      position: {x: 0.09761694, y: -0.0000004651619, z: -0.0000005831829}
+      rotation: {x: -0.02290025, y: -0.10458564, z: -0.052798063, w: 0.99284935}
+      scale: {x: 1.0025616, y: 1.000117, z: 0.99738556}
+    - name: thumb_02_r
+      parentName: thumb_01_r
+      position: {x: 0.07664399, y: -0.00000024575837, z: 0.00000012293376}
+      rotation: {x: -0.02871909, y: -0.02268558, z: 0.028779186, w: 0.9989156}
+      scale: {x: 1.0012136, y: 0.99999255, z: 0.99889654}
+    - name: thumb_03_r
+      parentName: thumb_02_r
+      position: {x: 0.07903118, y: 0.00000014606215, z: 0.0000003152243}
+      rotation: {x: -0.044190932, y: -0.20723134, z: -0.20381978, w: 0.9558033}
+      scale: {x: 1.0078838, y: 1.0051428, z: 0.9870887}
+    - name: middle_01_r
+      parentName: hand_r
+      position: {x: 0.087085284, y: -0.0199649, z: 0.11055272}
+      rotation: {x: -0.08251622, y: -0.42416543, z: -0.03077446, w: 0.9012922}
+      scale: {x: 1.0048763, y: 1.0002601, z: 0.9949478}
+    - name: middle_02_r
+      parentName: middle_01_r
+      position: {x: 0.07301014, y: -0.0000005761605, z: 0.000000016055719}
+      rotation: {x: 0.00046443197, y: 0.0027054849, z: -0.16921844, w: 0.9855748}
+      scale: {x: 1.0001032, y: 0.9999613, z: 0.99998873}
+    - name: neck_01
+      parentName: spine_03
+      position: {x: -0.19008188, y: 0, z: -4.1968246e-17}
+      rotation: {x: -0.9741246, y: 0.22601175, z: 0.000000014901163, w: 0.00000007776544}
+      scale: {x: 0.999901, y: 1.0000769, z: 0.9999847}
+    - name: head
+      parentName: neck_01
+      position: {x: -0.0699296, y: 4.8849813e-17, z: 3.8966696e-18}
+      rotation: {x: -0.000000026284393, y: 0.00000005440137, z: 0.22682565, w: 0.97393537}
+      scale: {x: 1.0002764, y: 0.9997214, z: 0.99999624}
+    - name: eyes
+      parentName: head
+      position: {x: -0.44662374, y: -3.5527136e-17, z: -7.5255536e-17}
+      rotation: {x: 0.26344138, y: -0.6562002, z: 0.26344126, w: 0.65620023}
+      scale: {x: 1.0000039, y: 1.000881, z: 0.999136}
+    - name: eyebrows
+      parentName: head
+      position: {x: -0.49208835, y: 0.04749711, z: 1.3548404e-16}
+      rotation: {x: 0.26344138, y: -0.6562002, z: 0.26344126, w: 0.65620023}
+      scale: {x: 1.0000039, y: 1.000881, z: 0.999136}
+    - name: thigh_l
+      parentName: pelvis
+      position: {x: -0.16192728, y: -1.5543122e-16, z: 0}
+      rotation: {x: -0.000000014517424, y: -0.00000001509795, z: 0.54352826, w: 0.8393909}
+      scale: {x: 1.0000067, y: 0.99999994, z: 1}
+    - name: calf_l
+      parentName: thigh_l
+      position: {x: -0.18532088, y: -3.2196467e-17, z: 0}
+      rotation: {x: -0.62523097, y: -0.06665086, z: -0.060908377, w: 0.7751994}
+      scale: {x: 1.0000001, y: 1.000003, z: 1.0000013}
+    - name: foot_l
+      parentName: calf_l
+      position: {x: -0.21582747, y: -0.0023573, z: 1.4210854e-16}
+      rotation: {x: 0.7669876, y: 0.63297474, z: -0.050942503, w: 0.09207513}
+      scale: {x: 0.99998945, y: 1.0000268, z: 1.0000015}
+    - name: ball_l
+      parentName: foot_l
+      position: {x: -0.09232829, y: -0.037823524, z: 3.5527136e-17}
+      rotation: {x: 0.000000070780516, y: -0.0000000037252903, z: -0.1866399, w: 0.98242843}
+      scale: {x: 1.000039, y: 0.9999624, z: 1.0000045}
+    - name: toes_l
+      parentName: ball_l
+      position: {x: -0.058889512, y: -2.788073e-17, z: -1.5912988e-17}
+      rotation: {x: -0.000000004466457, y: -0.7071068, z: 0.000000034268776, w: 0.7071068}
+      scale: {x: 0.99999493, y: 0.99999976, z: 0.9999967}
+    - name: thigh_r
+      parentName: pelvis
+      position: {x: 0.114262246, y: -0.11473704, z: 0}
+      rotation: {x: 0.56664276, y: -0.8239636, z: -0.000000011090002, w: -0.0000000014978058}
+      scale: {x: 1.0000099, y: 1.0000006, z: 1.000014}
+    - name: calf_r
+      parentName: thigh_r
+      position: {x: 0.18532096, y: -0.00000042431333, z: -8.941735e-15}
+      rotation: {x: -0.625231, y: -0.066650845, z: -0.06090831, w: 0.7751993}
+      scale: {x: 1.0000137, y: 1.0000288, z: 1.0000137}
+    - name: foot_r
+      parentName: calf_r
+      position: {x: 0.21582764, y: 0.002357442, z: 0.0000006154956}
+      rotation: {x: 0.76698774, y: 0.6329746, z: -0.050942544, w: 0.09207503}
+      scale: {x: 1.0000049, y: 1.0000266, z: 1.0000521}
+    - name: ball_r
+      parentName: foot_r
+      position: {x: 0.09232825, y: 0.03782343, z: 0}
+      rotation: {x: -0.000000007450581, y: 0.000000074505806, z: -0.18664005, w: 0.98242843}
+      scale: {x: 0.9999163, y: 1.0000978, z: 1.0000004}
+    - name: toes_r
+      parentName: ball_r
+      position: {x: 0.058889497, y: 7.105427e-17, z: 0}
+      rotation: {x: 0.00000006478043, y: -0.7071067, z: 0.00000011403351, w: 0.7071068}
+      scale: {x: 0.99999756, y: 1.0000038, z: 0.999999}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

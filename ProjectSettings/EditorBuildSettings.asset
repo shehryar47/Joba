@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Joba 2.unity
+    guid: f4dcb707c00d72a418a4b51f5bf82fa6
+  - enabled: 1
+    path: Assets/Scenes/TavernMiniGame.unity
+    guid: f7e2c9c1042d10748b854bdb4312c264
+  - enabled: 1
+    path: Assets/Shehryar/Crystal_Mine/Scenes/Demo.unity
+    guid: da1ee68f80022d9488f058100800da6f
+  - enabled: 0
+    path: Assets/Scenes/Joba.unity
+    guid: d22ed97610986044eb53e371ec34a20e
+  - enabled: 0
+    path: Assets/Scenes/Inn.unity
+    guid: 3189a249776cacb49bd30bf997ef19f1
   m_configObjects: {}

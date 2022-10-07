@@ -14,16 +14,28 @@ public class PlayerMovement : MonoBehaviour
     public bool dialogueFinished;
     public NavMeshAgent agent;
     GameObject guard;
-
+    public Animator animator;
+    public Vector3 dest;
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         CastRay();
+        if (dest != null && Vector3.Distance(transform.position, dest) < 0.2f)
+        {
+            animator.SetBool("Walk", false);
+
+        }
+        else
+        {
+
+            animator.SetBool("Walk", true);
+        }
         CheckGuard();
 
     }
@@ -33,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (guard != null && Vector3.Distance(transform.position, guard.transform.position) < 4f)
         {
-            if (!dialogueStarted&&!dialogueFinished)
+            if (!dialogueStarted && !dialogueFinished)
             {
 
                 StartDialogue();
@@ -47,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
         dialCam.SetActive(true);
         DialSystem.SetActive(true);
         guard.GetComponent<DialogueTrigger>().TriggerDialogue();
-        
+
     }
 
     private void CastRay()
@@ -56,20 +68,27 @@ public class PlayerMovement : MonoBehaviour
         {
             Ray ray = playerCam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit)&& !dialogueStarted)
+            if (Physics.Raycast(ray, out hit) && !dialogueStarted)
             {
                 agent.SetDestination(hit.point);
-                if (hit.transform.name == ("Guard"))
-                {
-                    guard = hit.transform.gameObject;
-                    agent.stoppingDistance = 3f;
-                }
-                else
-                {
-                    agent.stoppingDistance = 0f;
-
-                }
+                dest = hit.point;
+                CheckForGuard(hit);
             }
+        }
+    }
+
+    private void CheckForGuard(RaycastHit hit)
+    {
+        if (hit.transform.name == ("Guard"))
+        {
+            guard = hit.transform.gameObject;
+            agent.stoppingDistance = 3f;
+            animator.SetBool("Walk", false);
+        }
+        else
+        {
+            agent.stoppingDistance = 0f;
+
         }
     }
 }
