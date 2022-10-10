@@ -3,8 +3,20 @@ using UnityEngine;
 
 public class TavernMiniGameManager : MonoBehaviour
 {
-    [SerializeField] List<NPC> npcList = new List<NPC>();
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+       
+        
+            gameObject.GetComponent<Outline>().OutlineWidth = 10f;
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+     
+        gameObject.GetComponent<Outline>().OutlineWidth = 0f;
+    }
 
-    
 
 }
