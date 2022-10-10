@@ -27,7 +27,6 @@ public class PlayerInput : MonoBehaviour
         float vertical = SimpleInput.GetAxisRaw("Horizontal");
         float horizontal = SimpleInput.GetAxisRaw("Vertical");
         var movement = new Vector3(vertical, 0, horizontal).normalized;
-       // GroundPlayer = (this.transform.position.y < 5.93f) ? true : false;
         if(!GroundPlayer)
         {
             PlayerVelocity.y += (-9.81f) * Time.deltaTime;
