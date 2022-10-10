@@ -29,7 +29,8 @@ public class NpcSlateManager : MonoBehaviour
             canvasSlate.SetActive(true);
             canvasSlate.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = guest._name;
             canvasSlate.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = guest.roomType.ToString();
-            other.gameObject.transform.GetChild(1).Rotate(0f, -90f, 0f);
+           // other.gameObject.transform.Rotate(0f, -130f, 0f);
+           
         }
     }
 
