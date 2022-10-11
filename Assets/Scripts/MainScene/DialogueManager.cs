@@ -71,7 +71,6 @@ public class DialogueManager : MonoBehaviour
 		playerMovement.dialogueStarted = false;
 		playerMovement.DialSystem.SetActive(false);
 		playerMovement.dialogueFinished = true;
-		playerMovement.agent.enabled = false;
 		playerFunctions.ShowSlate();
 		
 	}

@@ -13,20 +13,20 @@ public class PlayerMovement : MonoBehaviour
     public bool dialogueStarted;
     public bool dialogueFinished;
     public NavMeshAgent agent;
-    GameObject guard;
+    public GameObject guard;
     public Animator animator;
     public Vector3 dest;
     void Start()
     {
-        agent = GetComponent<NavMeshAgent>();
-        animator = GetComponentInChildren<Animator>();
+        //agent = GetComponent<NavMeshAgent>();
+       // animator = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        CastRay();
-        if (dest != null && Vector3.Distance(transform.position, dest) < 0.2f)
+       // CastRay();
+       /* if (dest != null && Vector3.Distance(transform.position, dest) < 0.2f)
         {
             animator.SetBool("Walk", false);
 
@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
         {
 
             animator.SetBool("Walk", true);
-        }
+        }*/
         CheckGuard();
 
     }
@@ -87,7 +87,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            agent.stoppingDistance = 0f;
+            //agent.stoppingDistance = 0f;
 
         }
     }

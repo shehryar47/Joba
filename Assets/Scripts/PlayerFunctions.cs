@@ -15,7 +15,7 @@ public class PlayerFunctions : MonoBehaviour
     public void IdentityProved()
     {
         
-        GetComponent<PlayerMovement>().agent.enabled = true;
+        //GetComponent<PlayerMovement>().agent.enabled = true;
         GetComponent<PlayerMovement>().dialCam.SetActive(false);
         //GetComponent<PlayerMovement>().DialSystem.SetActive(true);
        
