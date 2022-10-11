@@ -58,6 +58,8 @@ public class PlayerMovement : MonoBehaviour
     {
         dialCam.SetActive(true);
         DialSystem.SetActive(true);
+        GetComponent<PlayerInput>().anim.SetBool("Walk", false); 
+        GetComponent<PlayerInput>().enabled = false;
         guard.GetComponent<DialogueTrigger>().TriggerDialogue();
 
     }
