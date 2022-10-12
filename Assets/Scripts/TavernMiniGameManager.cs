@@ -3,7 +3,8 @@ using UnityEngine;
 
 public class TavernMiniGameManager : MonoBehaviour
 {
-    public GameObject CounterCam,CounterCanvas,ControlCanvas,TableCanvas,GuestSpanwer;
+    public GameObject CounterCam,CounterCanvas,TableCanvas,GuestSpanwer;
+    public BoxCollider trigger;
    
     private void OnTriggerStay(Collider other)
     {
@@ -15,8 +16,8 @@ public class TavernMiniGameManager : MonoBehaviour
           //  TableCanvas.SetActive(true);
             GuestSpanwer.SetActive(true);
             other.gameObject.SetActive(false);
-            ControlCanvas.SetActive(false);
-
+            UIManager.Instance.ControlCanvas.SetActive(false);
+            trigger.enabled = false;
         }
     }
     private void OnTriggerExit(Collider other)
@@ -25,6 +26,7 @@ public class TavernMiniGameManager : MonoBehaviour
         gameObject.GetComponent<Outline>().OutlineWidth = 0f;
 
     }
+
 
 
 }
